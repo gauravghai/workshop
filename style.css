@@ -1,4 +1,72 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+body {
+    background: black;
+}
+h1, h2, h3 {
+    font-family: 'Sen', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.custom-nav {
+    position: fixed;
+    width: 100%;
+}
+.heroSection {
+    height: 100vh;
+}
+.heroSection .custom-bg {
+    background: rgb(23, 23, 31);
+}
+.heroSection h1 {
+    font-size: 76px;
+}
+.heroSection h1 span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.heroSection p {
+    font-size: 18px;
+}
+.work h2, .blog h2, .skills h2 {
+    font-size: 55px;
+}
+.work p small {
+    color: #8491a0;
+}
+.work .number-head {
+    font-size: 113px;
+    color: #8491a0;
+    line-height: initial;
+}
+.work .sub-head {
+    font-size: 24px;
+}
+.work .google {
+    color: #3cc74e;
+}
+.work .facebook {
+    color: #609bff;
+}
+.blog .custom-bg {
+    background: #fff3e4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.blog .custom-bg p {
+    color: #5b6876;
+    font-size: 18px
+}
+.blog a {
+    padding: 10px 0px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #5b6876;
+}
+.skills p {
+    color: rgb(121, 134, 149);
+}
+/* * {
     margin: 0px;
     padding: 0px;
 }
@@ -55,4 +123,4 @@ header ul li {
         width: 100%;
         padding-top: 30px;
     }
-}
+} */
