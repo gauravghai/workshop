@@ -2,8 +2,13 @@
 body {
     background: black;
 }
-h1, h2, h3 {
+h1, h2, h3, p, li {
     font-family: 'Sen', sans-serif;
+}
+input, textarea{
+    background: #181823 !important;
+    border: none !important;
+    color: white !important;
 }
 img {
     max-width: 100%;
@@ -11,6 +16,12 @@ img {
 .custom-nav {
     position: fixed;
     width: 100%;
+}
+.nav-item:last-child {
+    background: #5221e6;
+}
+nav {
+    border-top: 5px solid #5221e6;
 }
 .heroSection {
     height: 100vh;
@@ -27,7 +38,7 @@ img {
 .heroSection p {
     font-size: 18px;
 }
-.work h2, .blog h2, .skills h2 {
+.work h2, .blog h2, .skills h2, .contact h2 {
     font-size: 55px;
 }
 .work p small {
@@ -63,8 +74,39 @@ img {
     border-bottom: 1px solid;
     color: #5b6876;
 }
-.skills p {
+.skills p, .contact p, footer p {
     color: rgb(121, 134, 149);
+}
+.contact button {
+    background: #5221e6;
+    border: none;
+}
+footer {
+    background: #181823;
+}
+footer ul li{
+    list-style: none;
+    color: white;
+}
+@media (max-width: 800px) {
+    .heroSection {
+        height: auto;
+    }
+    .heroSection h1 {
+        font-size: 36px;
+    }
+    .work h2, .blog h2, .skills h2, .contact h2 {
+        font-size: 25px;
+    }
+    .work .number-head {
+        font-size: 73px;
+    }
+    nav{
+        background: #5221e6;
+    }
+    .nav-item:last-child {
+        background: transparent;
+    }
 }
 /* * {
     margin: 0px;
