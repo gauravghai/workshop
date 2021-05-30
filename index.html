@@ -162,7 +162,7 @@
                                     <label for="exampleFormControlTextarea2" class="text-white mb-2">Message</label>
                                     <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary col-12 py-3">LET'S GET STARTED</button>
+                                <button type="submit" class="btn btn-primary col-12 py-3" id="submit_btn">LET'S GET STARTED</button>
                               </form>
                         </div>
                     </div>
@@ -199,5 +199,10 @@
                 </div>
             </footer>
       </section>
+      <script>
+        document.getElementById('submit_btn').addEventListener('click', function(){
+            alert('Form Submitted');
+        });
+      </script>
 </body>
 </html>
