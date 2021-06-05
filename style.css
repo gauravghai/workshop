@@ -1,11 +1,30 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap'); */
-@font-face {
-    font-family: ;
-    src: url('./');
+/* @font-face {
+    font-family: myCustomFont;
+    src: url('./Open_Sans/OpenSans-Bold.ttf');
 }
 .heading {
     color: tomato;
+    font-family: myCustomFont;
 }
-.project {
+#hello {
+    color: cornflowerblue;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    font-size: 80%;
+    background: coral;
+}
+.em-1 {
+    font-size: 1em;
+}
+.rem-1 {
+    font-size: 2rem;
+}
+.px-1 {
+    font-size: 1px;
 }
