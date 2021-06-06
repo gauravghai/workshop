@@ -28,3 +28,6 @@ div {
 .px-1 {
     font-size: 1px;
 }
+@media (max-width: 600px) {
+    
+}
