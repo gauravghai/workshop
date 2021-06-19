@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
 }
-div {
+/* div {
     font-size: 80%;
     background: coral;
 }
@@ -29,5 +29,46 @@ div {
     font-size: 1px;
 }
 @media (max-width: 600px) {
-    
+    .px-1 {
+        font-size: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .px-1 {
+        font-size: 10px;
+    }
+}
+.active {
+    font-size: 30px !important;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
+body {
+    font-family: 'Sen', sans-serif !important;
+}
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+.bg-transparent {
+    height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+    background: black;
+}
+.bg-transparent div:nth-child(2) {
+    background: rgb(24, 24, 35);
+}
+.main > div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 74px;
+}
+.main .head-text-left {
+    margin-left: -50px;
 }
