@@ -44,10 +44,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap');
 body {
     font-family: 'Sen', sans-serif !important;
+    background: black;
 }
 h1 {
     font-size: 80px;
     line-height: 80px;
+}
+h2 {
+    font-size: 55px;
 }
 .bg-transparent {
     height: 100vh;
@@ -71,4 +75,28 @@ h1 {
 }
 .main .head-text-left {
     margin-left: -50px;
+}
+.light-grey-color {
+    color: #8491a0;
+}
+.work .inner .work-numbers {
+    font-size: 7rem;
+    margin: 0;
+    display: inline;
+    line-height: 7rem;
+}
+.work .inner .work-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.article .text-content {
+    background-color: rgb(255, 243, 229);
+}
+.article img {
+    max-width: 100%;
+}
+.article p {
+    color: #5b6876;
+    font-size: 18px;
+    text-align: justify;
 }
