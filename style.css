@@ -46,6 +46,9 @@ body {
     font-family: 'Sen', sans-serif !important;
     background: black;
 }
+label {
+    font-family: 'Sen', sans-serif !important;
+}
 h1 {
     font-size: 80px;
     line-height: 80px;
@@ -71,7 +74,6 @@ h2 {
 }
 .main span {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 74px;
 }
 .main .head-text-left {
     margin-left: -50px;
@@ -99,4 +101,37 @@ h2 {
     color: #5b6876;
     font-size: 18px;
     text-align: justify;
+}
+input, textarea {
+    background: #181823 !important;
+    border: none !important;
+    border-radius: unset !important;
+    color: white !important;
+}
+.contact form .custom-btn{
+    background-color: #5221e6;
+    color: white;
+}
+.navbar {
+    padding: 0 !important;
+    border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3) {
+    background: #5221e6;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main .head-text-left {
+        margin-left: auto;
+        margin-top: 0px !important;
+    }
+    .bg-transparent {
+        height: 90vh;
+    }
+    .main > div {
+        margin: 0px 30px;
+    }
 }
